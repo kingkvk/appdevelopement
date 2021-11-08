@@ -15,13 +15,18 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
-          title: const Text("Firebase Integration"),
+          title: const Text("Class 1"),
           centerTitle: true,
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
+              Image.asset(
+                'asset/logo/robolabs.png',
+                height: 400,
+                width: 400,
+              ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                     primary: Colors.red, onPrimary: Colors.white),
